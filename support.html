@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>速启坞技术支持</title>
+  <meta name="description" content="速启坞技术支持页面：获取使用说明、常见问题和联系支持方式。" />
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f8fc;
+      --card: #ffffff;
+      --text: #162033;
+      --muted: #64748b;
+      --line: #e2e8f0;
+      --blue: #2563eb;
+      --green: #059669;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+      background: radial-gradient(circle at top left, #e8f1ff 0, transparent 34%), linear-gradient(180deg, #f8fbff 0%, var(--bg) 48%, #ffffff 100%);
+      color: var(--text);
+      line-height: 1.75;
+    }
+    main {
+      width: min(900px, calc(100% - 32px));
+      margin: 56px auto;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      box-shadow: 0 24px 70px rgba(15, 23, 42, 0.08);
+      overflow: hidden;
+    }
+    header {
+      padding: 42px 44px 30px;
+      border-bottom: 1px solid var(--line);
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(30px, 5vw, 44px);
+      letter-spacing: -0.04em;
+    }
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 16px;
+    }
+    section { padding: 10px 44px 42px; }
+    h2 {
+      margin: 30px 0 8px;
+      font-size: 20px;
+      letter-spacing: -0.02em;
+    }
+    p, li { font-size: 16px; }
+    ul { padding-left: 22px; }
+    .card {
+      margin-top: 24px;
+      padding: 20px;
+      border-radius: 20px;
+      border: 1px solid #bfdbfe;
+      background: #eff6ff;
+    }
+    .email {
+      display: inline-flex;
+      align-items: center;
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: #ffffff;
+      color: var(--blue);
+      text-decoration: none;
+      border: 1px solid #dbeafe;
+      font-weight: 600;
+    }
+    .tip {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    footer {
+      padding: 22px 44px 34px;
+      color: var(--muted);
+      font-size: 14px;
+      border-top: 1px solid var(--line);
+    }
+    a { color: var(--blue); }
+    @media (max-width: 640px) {
+      main { margin: 24px auto; border-radius: 22px; }
+      header, section, footer { padding-left: 24px; padding-right: 24px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>速启坞技术支持</h1>
+      <p class="subtitle">感谢使用速启坞。如果你在使用过程中遇到问题，可以通过本页面获取帮助。</p>
+    </header>
+
+    <section>
+      <div class="card">
+        <h2>联系支持</h2>
+        <p>如需技术支持，请发送邮件并尽量附上问题描述、macOS 版本、操作步骤和截图。</p>
+        <p><a class="email" href="mailto:gssdlnu@163.com">gssdlnu@163.com</a></p>
+        <p class="tip">我们会尽量在收到邮件后尽快回复。</p>
+      </div>
+
+      <h2>常见问题</h2>
+      <ul>
+        <li>如果文件无法打开，请确认原文件是否仍在本机对应位置。</li>
+        <li>如果拖入文件失败，请确认你已经允许应用访问所选文件或文件夹。</li>
+        <li>如果想重新整理资源，可以删除对应分区后重新添加。</li>
+        <li>示例分区仅用于展示应用功能，可以根据需要删除。</li>
+      </ul>
+
+      <h2>应用说明</h2>
+      <p>速启坞是一款 macOS 本地资源管理工具，用于帮助用户按分区管理文件、文件夹和项目资料，并快速打开或定位这些资源。</p>
+
+      <h2>隐私政策</h2>
+      <p>你也可以查看 <a href="./">速启坞隐私政策</a>。</p>
+    </section>
+
+    <footer>
+      本页面用于 App Store 技术支持信息展示。
+    </footer>
+  </main>
+</body>
+</html>
